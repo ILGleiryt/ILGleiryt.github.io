@@ -1,8 +1,16 @@
 html {
     background-color: blanchedalmond;
+    height: 100%;
 }
-p {
+
+.rounded-image {
+    border-radius: 20px;  /* Умеренное скругление */
+    width: 300px;
+  }
+  
+#hello {
+    color: crimson;
     text-align: center;
-    font-size: 2rem;
+    font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
