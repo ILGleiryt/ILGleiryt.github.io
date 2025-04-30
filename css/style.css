@@ -31,7 +31,12 @@ body{
 
 }
 
+.main-block {
+    font-size: 1.4rem;
+}
+
 .nav-flex {
+    font-size: 1.2rem;
     display: flex;
     justify-content: center;
     padding: 0 20px;
@@ -64,7 +69,7 @@ section {
 }
 
 footer {
-    font-size: 1.0rem;
+    font-size: 1.5rem;
     padding: 10px;
     flex-shrink: 0;
     margin-left: auto;
