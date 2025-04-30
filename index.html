@@ -4,29 +4,46 @@
   <link rel="stylesheet" href="./css/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Моё портфолио с использованием Kotlin, Java и Android SDK">
   <title>Dummiest-site-dotcom</title>
 </head>
 <body>
-  <header id="hello">
-    <h1 style="margin: 0;">Приветствую!</h1>
+  <header class="nav-flex">
+    <nav id="navigation" aria-label="Основная навигация">
+      <a href="#stack-flex">Технологии</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
   </header>
+  
 
 
-    <main class="flex">
-      <section>
-        <h3>Основа:</h3> 
+    <main>
+      <section id="stack-flex" aria-labelledby="tech-heading">
+        <h2>Основа:</h2> 
         <ul>
           <li><b>Kotlin,</b></li>
           <li><b>Java,</b></li>
           <li><b>Android SDK,</b></li>
-          <li>...</li>
+          <li>Jetpack Compose</li>
+          <li>Retrofit</li>
         </ul>   
       </section>
+
+      <section id="projects" aria-labelledby="projects-heading">
+        <h2>Проекты:</h2>
+      </section>
+
+      <section id="contacts" aria-labelledby="contacts-heading">
+        <h2>Контакты:</h2>
+        <address>Контакты: <a href="mailto:pochtabang@gmail.com">pochtabang@gmail.com</a></address>
+      </section>
     </main>
-  
+
+ 
+
   <footer>
-    <em>© ILGleiryt.com</em>
-    <address>Контакты: <a href="mailto:pochtabang@gmail.com">pochtabang@gmail.com</a></address>
+    <p><small>© 2023 ILGleiryt.com. Все права защищены.</small></p>
     <a href="./100days.html" title="Do not open">secret page</a>
   </footer>
 </body>
