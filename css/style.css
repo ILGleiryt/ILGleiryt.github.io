@@ -43,6 +43,7 @@ body{
     margin: 0 auto;
     align-items: center;
     width: 100%;
+    transition: color 0.3s ease;
 }
 
 #navigation {
@@ -76,3 +77,20 @@ footer {
     margin-right: auto;
     text-align: center;
 }
+
+
+.nav-link {
+    display: inline-block; /* Важно! */
+    color: #333; /* Исходный цвет */
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  /* Состояние при наведении */
+  .nav-link:hover {
+    color: rgb(233, 30, 30) !important;
+    transform: translateY(-2px);
+  }
